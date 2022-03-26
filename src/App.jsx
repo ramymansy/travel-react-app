@@ -11,9 +11,9 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <Selects />
       <Destinations />
       <Search />
-      <Selects />
       <ImgCarousel />
       <Footer />
     </div>

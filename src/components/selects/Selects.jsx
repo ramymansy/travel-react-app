@@ -1,10 +1,13 @@
 import "./selects.css";
-import BoraBora from "../../assets/borabora.jpg";
-import BoraBora2 from "../../assets/borabora2.jpg";
-import Maldives from "../../assets/maldives.jpg";
-import Maldives2 from "../../assets/maldives2.jpg";
-import Maldives3 from "../../assets/maldives3.jpg";
-import KeyWest from "../../assets/keywest.jpg";
+import Cairo from "../../assets/cairo.jpg";
+import Giza from "../../assets/giza.jpg";
+import Alexandria from "../../assets/alexandria.jpg";
+import Fayoum from "../../assets/fayoum.jpg";
+import Luxor from "../../assets/luxor.jpg";
+import Aswan from "../../assets/aswan.jpg";
+import Catrien from "../../assets/catrien.jpg";
+import Hurghada from "../../assets/hurghada.jpg";
+import Sharm from "../../assets/sharm.jpg";
 
 import SelectsImg from "../selectsImg/SelectsImg";
 
@@ -12,12 +15,15 @@ const Selects = () => {
   return (
     <div id="selects" className="selects">
       <div className="container">
-        <SelectsImg bgImg={BoraBora} text="Bora Bora" />
-        <SelectsImg bgImg={BoraBora2} text="Emerald Bay" />
-        <SelectsImg bgImg={Maldives} text="Maldives" />
-        <SelectsImg bgImg={Maldives2} text="Grenada" />
-        <SelectsImg bgImg={Maldives3} text="Barbados" />
-        <SelectsImg bgImg={KeyWest} text="Key West" />
+        <SelectsImg bgImg={Cairo} text="Cairo" />
+        <SelectsImg bgImg={Giza} text="Giza" />
+        <SelectsImg bgImg={Alexandria} text="Alexandria" />
+        <SelectsImg bgImg={Fayoum} text="Fayoum" />
+        <SelectsImg bgImg={Luxor} text="Luxor" />
+        <SelectsImg bgImg={Aswan} text="Aswan" />
+        <SelectsImg bgImg={Catrien} text="Sant Catreen" />
+        <SelectsImg bgImg={Hurghada} text="Hurghada" />
+        <SelectsImg bgImg={Sharm} text="sharm el sheikh" />
       </div>
     </div>
   );

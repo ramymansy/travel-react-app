@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav-menu-top">
         <div className="logo">
-          <h2>TRAVEL</h2>
+          <h2>LUXURY.</h2>
         </div>
         <div className="hamburger" onClick={() => setNav(!nav)}>
           {!nav ? (
@@ -27,16 +27,13 @@ const Navbar = () => {
             <a href="#home">Home</a>
           </li>
           <li className="nav-list">
-            <a href="#destinations">Destinations</a>
-          </li>
-          <li className="nav-list">
-            <a href="#carousel">Travel</a>
+            <a href="#selects">Destinations</a>
           </li>
           <li className="nav-list">
             <a href="#search">Book</a>
           </li>
           <li className="nav-list">
-            <a href="#selects">Views</a>
+            <a href="#carousel">Views</a>
           </li>
         </ul>
         <div className="nav-icons">
@@ -51,9 +48,6 @@ const Navbar = () => {
           </li>
           <li className="mobile-list">
             <a href="#destinations">Destinations</a>
-          </li>
-          <li className="mobile-list">
-            <a href="#carousel">Travel</a>
           </li>
           <li className="mobile-list">
             <a href="#search">Book</a>

@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="title">
-          <h2>TRAVEL</h2>
+          <h2>LUXURY.</h2>
         </div>
         <div className="social">
           <FaFacebook className="icon" />
@@ -28,9 +28,6 @@ const Footer = () => {
             </li>
             <li>
               <a href="#destinations">Destinations</a>
-            </li>
-            <li>
-              <a href="#carousel">Travel</a>
             </li>
             <li>
               <a href="#search">Book</a>

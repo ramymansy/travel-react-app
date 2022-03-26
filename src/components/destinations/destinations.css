@@ -6,6 +6,11 @@
 
 .destinations h1 {
   padding: 1rem;
+  color: #555;
+}
+.destinations p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 .img-container {

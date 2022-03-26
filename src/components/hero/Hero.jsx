@@ -1,5 +1,5 @@
 import "./hero.css";
-import Video from "../../assets/video.mp4";
+import Video from "../../assets/pexels-juancarlos-córdova-7574279.mp4";
 
 const Hero = () => {
   return (
@@ -10,13 +10,13 @@ const Hero = () => {
       <div className="overlay"></div>
       <div className="content">
         <h1>First Class Travel</h1>
-        <h2>Top 1% Locations Worldwide</h2>
+        <h2>Top Location Worldwide</h2>
         <form className="form">
           <div>
             <input
               className="input"
               type="text"
-              placeholder="Search Destinations"
+              placeholder="Choose Destination"
             />
           </div>
           <div>
