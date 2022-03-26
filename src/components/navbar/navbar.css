@@ -1,0 +1,135 @@
+.navbar {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  position: absolute;
+}
+.nav-menu-top {
+  min-height: 80px;
+  z-index: 999;
+  width: 100%;
+  margin: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.logo {
+  padding: 0 1rem;
+}
+.nav-menu {
+  display: flex;
+}
+.nav-list {
+  padding: 0 1rem;
+}
+.hamburger {
+  display: none;
+  padding: 1rem;
+}
+.mobile-menu {
+  display: none;
+}
+.nav-icons {
+  padding: 0 1rem;
+}
+.nav-icons .icon {
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+}
+.icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 940px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-icons {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    transform: translate(5.5%, 0%);
+    font-weight: 500;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: translate(5.5%, 0%);
+    -moz-transform: translate(5.5%, 0%);
+    -ms-transform: translate(5.5%, 0%);
+    -o-transform: translate(5.5%, 0%);
+  }
+  .active {
+    top: 100px;
+  }
+  .mobile-nav {
+    margin: 1rem 0;
+  }
+  .mobile-list {
+    padding: 1.2rem 1rem;
+    margin: 0 1rem;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .mobile-menu-bottom {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .mobile-menu-bottom button {
+    margin: 0.5rem 1rem;
+    width: 90%;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+  }
+  .social-icons .icon {
+    cursor: pointer;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+  }
+  .social-icons .icon:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+}
